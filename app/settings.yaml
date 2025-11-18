@@ -1,0 +1,10 @@
+paths:
+  chunks_parquet: data/processed/chunks.parquet
+  faiss_index: indexes/faiss/flat_cosine.index
+  ids_csv: indexes/faiss/ids.csv
+feedback_csv: data/feedback.csv
+
+retrieval:
+  k: 5
+  embed_model: sentence-transformers/all-MiniLM-L6-v2
+  max_context_chars: 1500
